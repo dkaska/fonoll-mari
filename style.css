@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: turquoise;
+}
+.header {
+    border: solid red 1px;
+    background: white;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+.logo-container {
+    border:solid red 1px;
+    margin-left: 20px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.logo {
+    border: solid red 1px;
+}
+.menu-container {
+    display:flex;
+    border: solid red 1px;
+    margin-right: 20px;
+    flex: 2;
+    align-items: center;
+}
+.menu {
+    border: solid red 1px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;   
+}
+.menu-button {
+    border: solid red 1px;
+}
