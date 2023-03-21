@@ -7,36 +7,46 @@ body {
     background: turquoise;
 }
 .header {
-    border: solid red 1px;
+    
     background: white;
     display: flex;
     height: 80px;
     justify-content: space-between;
 }
 .logo-container {
-    border:solid red 1px;
+    
     margin-left: 20px;
     display: flex;
     flex: 1;
     align-items: center;
 }
 .logo {
-    border: solid red 1px;
+     
+    height: 75px;
+    margin-top: 4px;
 }
 .menu-container {
     display:flex;
-    border: solid red 1px;
+    
     margin-right: 20px;
     flex: 2;
     align-items: center;
 }
 .menu {
-    border: solid red 1px;
+    
     display: flex;
     flex: 1;
     justify-content: space-around;   
 }
 .menu-button {
-    border: solid red 1px;
+    background-color: white;
+    color: black;
+    padding: 7px 10px;
+    border-radius: 10px; 
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
 }
-.
+.menu-button:hover {
+    background-color: rgb(219, 219, 219);
+}
