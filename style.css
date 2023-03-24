@@ -9,11 +9,18 @@ body {
 }
 
 .header {
+    /* opció perque baixi el menu si no hi cap: */
+    flex-wrap: wrap;
+    
     box-sizing: content-box;    
     background: white;
     display: flex;
+    /*Millor sense height, aixi al utilitzar flex-wrap el header baixa amb el menu i el marge collapsa amb les fotos
     height: 80px;
-    justify-content: space-between;
+    */
+    justify-content: space-between; 
+    /*opció*/
+    margin-top: 5px;
     
     /*border option*/
     border-bottom: px solid turquoise;
@@ -27,6 +34,9 @@ body {
 }
 
 .logo {
+    /*max-height i width: 100% per deixar reduir tamany,
+    si no faig lo mateix amb menu es menja l'espai del logo.
+    També podria corregir amb min-width*/
     height: 75px;
     margin-top: 4px;
 }
@@ -34,14 +44,19 @@ body {
 .menu-container {
     display:flex;
     margin-right: 20px;
+    /*Opció: marge per igualar el de la dreta sobretot quan baixa a nova linia amb flex-wrap,
+    potser ara s'hauria d'ajustar el menu per estar més a l'esquerra com abans*/
+    margin-left: 20px;
     flex: 2;
     align-items: center;
+    /*Marge pel peu de les lletres igual que peu logo?*/
+    margin-top: 10px;
 }
 
 .menu {    
     display: flex;
     flex: 1;
-    justify-content: space-around;   
+    justify-content: space-around;
 }
 
 .menu-button {
@@ -50,7 +65,7 @@ body {
     padding: 7px 10px;
     border-radius: 10px; 
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -62,7 +77,7 @@ body {
     border: ;
     display: flex;
     justify-content: center;
-    margin: 30px 0px;
+    margin: 40px 0;
 }
 
 .index-images {
@@ -77,3 +92,17 @@ body {
     width: 100%;
     min-width: 0;
 }
+
+.section-one-footer-container {
+    border: ;
+    display: flex;
+    justify-content: center;
+}
+
+.section-one-footer {
+    border: ;
+    color:rgb(0, 170, 255); 
+    font-weight: 500;
+    font-size: 30px;
+}
+
