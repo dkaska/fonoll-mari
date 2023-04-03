@@ -61,7 +61,7 @@ body {
 
 .menu-button {
     background-color: white;
-    color: rgb(0, 170, 255);;
+    color: #1fbdcd;
     padding: 7px 10px;
     border-radius: 10px; 
     text-align: center;
@@ -101,7 +101,7 @@ body {
 
 .section-one-footer {
     border: ;
-    color:rgb(0, 170, 255); 
+    color:#1fbdcd; 
     font-weight: 500;
     font-size: 30px;
 }
