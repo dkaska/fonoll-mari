@@ -106,3 +106,12 @@ body {
     font-size: 30px;
 }
 
+@media screen and (max-width: 768px) {
+    .logo-container {
+        justify-content: center;
+    }
+    .index-images {
+        flex-wrap: wrap;
+    }
+}
+
