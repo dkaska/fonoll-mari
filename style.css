@@ -24,7 +24,7 @@ body {
     
     
     /*border option*/
-    border-bottom: px solid turquoise;
+    border-bottom: px solid #1fbdcd;
 }
 
 .logo-container {
@@ -102,9 +102,45 @@ body {
 
 .section-one-footer {
     border: ;
-    color:#1fbdcd; 
+    color:#1fbdcd;
     font-weight: 500;
     font-size: 30px;
+}
+
+.maps-section {
+    margin-top: 90px;
+    display: flex;
+    gap: 100px;
+}
+
+.map-container {
+    padding-top: 80px;
+    flex:1;
+    display: flex;
+    justify-content: right;  
+}
+.map-container iframe {
+    border-radius: px;
+}
+
+.reviews-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: left;
+    row-gap: 10px;
+    padding-bottom: 30px
+
+}
+
+.review img {
+    border:rgb(219, 219, 219) outset 1px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1fbdcd;
+    height: 50px;
 }
 
 @media screen and (max-width: 768px) {
