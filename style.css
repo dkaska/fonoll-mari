@@ -110,27 +110,25 @@ body {
 .maps-section {
     margin-top: 90px;
     display: flex;
-    gap: 100px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .map-container {
-    padding-top: 80px;
-    flex:1;
-    display: flex;
-    justify-content: right;  
+    width: 900px;
+    max-width: 90%;
 }
-.map-container iframe {
-    border-radius: px;
+.map-container iframe {  
+    width: 100%;
+    min-width: 0;
 }
 
 .reviews-container {
     display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: left;
-    row-gap: 10px;
-    padding-bottom: 30px
-
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
 }
 
 .review img {
